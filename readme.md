@@ -1,6 +1,7 @@
 # Vocabulary Highlighter: A Chrome Extension
 
 
+![Licenseicense](https://img.shields.io/pypi/l/ruten-crawler.svg)
 ![Downloads](https://img.shields.io/chrome-web-store/users/pajikbgjooomggbhdalmlgiimicopmdi)
 
 
