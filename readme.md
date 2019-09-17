@@ -1,5 +1,9 @@
 # Vocabulary Highlighter: A Chrome Extension
 
+
+![Downloads](https://img.shields.io/chrome-web-store/users/pajikbgjooomggbhdalmlgiimicopmdi)
+
+
 This is a repository for the Vocabulary Highlighter extension for Google Chrome
 It currently supports 2 vocabulary lists:
 
