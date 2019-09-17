@@ -3,6 +3,7 @@
 wordlists = {
   'magoosh':magoosh,
   'hongbao':ruby,
+  'barrons':barrons,
 }
 
 var last_wordlist;
