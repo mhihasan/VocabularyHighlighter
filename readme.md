@@ -5,6 +5,7 @@ It currently supports 2 vocabulary lists:
 
 1. Magoosh's GRE Vocabulary
 2. Hong Bao Shu
+3. Barron's (Thanks to @DigiBorg0)
 
 ## Installation (Non-developer)
 
