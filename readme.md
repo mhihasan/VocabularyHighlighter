@@ -23,7 +23,7 @@ If you are interested in tweaking the source codes yourself, you can clone this 
 
 ```
 
-$ git clone https://github.com/jn8029/VocabularyHighlighter
+$ git clone https://github.com/dittolooch/VocabularyHighlighter
 
 ```
 then you can install this on your Google Chrome browser.
