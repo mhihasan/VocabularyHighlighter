@@ -38,7 +38,7 @@ def build_word_dict_from_quizlet(file_name):
             word_dict[word[0]].append(word)
             line = reader.readline()
 
-    return word_dict
+    return sort_dict(word_dict)
 
 
 def combine_word_lists(*args):
