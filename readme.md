@@ -6,7 +6,7 @@
 
 
 This is a repository for the Vocabulary Highlighter extension for Google Chrome
-It currently supports 3 vocabulary lists:
+It currently supports following vocabulary lists:
 
 1. Magoosh's GRE Vocabulary
 2. Hong Bao Shu
