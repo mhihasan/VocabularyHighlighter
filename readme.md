@@ -11,6 +11,9 @@ It currently supports 3 vocabulary lists:
 1. Magoosh's GRE Vocabulary
 2. Hong Bao Shu
 3. Barron's (Thanks to @DigiBorg0)
+4. Gregmat GRE Vocabulary
+5. Barron's 333 
+6. Magoosh + Gregmat + Barron's 333 combined
 
 ## Installation (Non-developer)
 
