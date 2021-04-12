@@ -1,10 +1,10 @@
-wordlists = {
+const wordlists = {
     'magoosh': magoosh,
     'hongbao': ruby,
     'barrons': barrons,
     "gregmat": gregmat,
     "barrons_333": barrons_333,
-    "magoosh_gregmat_barrron333": magoosh_gregmat_barron_333
+    "magoosh_gregmat_barron333": magoosh_gregmat_barron_333
 }
 
 var last_wordlist;
