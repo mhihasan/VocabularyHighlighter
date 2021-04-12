@@ -121,7 +121,7 @@ function run() {
             }
 
             last_wordlist = result.wordlist
-            let wordlist = wordlists['magoosh_gregmat_barrron333'];
+            let wordlist = wordlists['magoosh_gregmat_barron333'];
 
             textNodesUnder(document.getElementsByTagName("body")[0]).forEach(function (node) {
                 let foundWords = node_needs_to_be_checked(node) && find_key_words_in_node(node, wordlist);
