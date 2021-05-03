@@ -1,10 +1,11 @@
 const wordlists = {
-    'magoosh': magoosh,
-    'hongbao': ruby,
+    // 'magoosh': magoosh,
+    // 'hongbao': ruby,
     'barrons': barrons,
-    "gregmat": gregmat,
-    "barrons_333": barrons_333,
-    "magoosh_gregmat_barron333": magoosh_gregmat_barron_333
+    // "gregmat": gregmat,
+    // "barrons_333": barrons_333,
+    "magoosh_gregmat_barron333": magoosh_gregmat_barron_333,
+    "all": all
 }
 
 var last_wordlist;
@@ -121,7 +122,8 @@ function run() {
             }
 
             last_wordlist = result.wordlist
-            let wordlist = wordlists['magoosh_gregmat_barron333'];
+            console.log("current wordlist", last_wordlist);
+            let wordlist = wordlists[result.wordlist];
 
             textNodesUnder(document.getElementsByTagName("body")[0]).forEach(function (node) {
                 let foundWords = node_needs_to_be_checked(node) && find_key_words_in_node(node, wordlist);
@@ -169,7 +171,7 @@ chrome.runtime.onMessage.addListener(message => {
     processSwitch(message.switch)
 });
 
-run()
+run();
 setInterval(function () {
     run();
 }, 5000);

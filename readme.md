@@ -9,11 +9,14 @@ This is a repository for the Vocabulary Highlighter extension for Google Chrome
 It currently supports following vocabulary lists:
 
 1. Magoosh's GRE Vocabulary
-2. Hong Bao Shu
-3. Barron's (Thanks to @DigiBorg0)
-4. Gregmat GRE Vocabulary
-5. Barron's 333 
-6. Magoosh + Gregmat + Barron's 333 combined
+2. Word smart
+3. Barron's 1100
+4. Barron's 800
+5. Barron's 333
+6. Gregmat
+7. Barron's All
+8. Magoosh + Gregmat + Barron's 333 combined
+9. All combined
 
 ## Installation (Non-developer)
 
