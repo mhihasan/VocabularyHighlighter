@@ -61,7 +61,7 @@ function isAlphabet(str) {
 
 function find_key_words_in_node(node, wordlist) {
     // console.log("finding key words...", node.nodeValue);
-    let word_array = node.nodeValue.split(/[\s,]+/)
+    let word_array = node.nodeValue.replace('.', '').split(/[\s,]+/);
     if (!word_array.length){
         return [];
     }
