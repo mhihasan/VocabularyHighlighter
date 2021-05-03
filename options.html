@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <title>Vocabulary Highlighter Extension Options</title>
     <link rel="stylesheet" type="text/css" href="css/common.min.css">
     <link rel="stylesheet" type="text/css" href="css/options.min.css">
 
-  </head>
-  <body>
-    <div id="content">
-      <div id="title">
+</head>
+<body>
+<div id="content">
+    <div id="title">
         <div>Vocabulary Highlighter Extension Options</div>
-      </div>
-      <form name="options-form" action="">
+    </div>
+    <form name="options-form" action="">
         <div class="option-row">
-          <div class="option-name">Selected Word List</div>
-          <div class="option-value">
-            <div class="option-value-primary">
-              <select id="vocabulary-selector">
-<!--                <option value="magoosh">Magoosh's 1000 GRE Words</option>-->
-<!--                <option value="gregmat">GregMAT's 840 GRE Words</option>-->
-<!--                <option value="barrons_333">Barron's 333 GRE Words</option>-->
-<!--                <option value="hongbao">GRE Hong Bao Shu</option>-->
-                <option value="barrons">Barron's</option>
-                <option value="magoosh_gregmat_barron333">Magoosh+Barron333+Gregmat</option>
-                  <option value="all">All</option>
-                <!-- <option value="quizlet">Connect with my Quizlet</option> -->
-              </select>
+            <div class="option-name">Selected Word List</div>
+            <div class="option-value">
+                <div class="option-value-primary">
+                    <select id="vocabulary-selector">
+                        <!--                <option value="magoosh">Magoosh's 1000 GRE Words</option>-->
+                        <!--                <option value="gregmat">GregMAT's 840 GRE Words</option>-->
+                        <!--                <option value="barrons_333">Barron's 333 GRE Words</option>-->
+                        <!--                <option value="hongbao">GRE Hong Bao Shu</option>-->
+                        <option value="barrons">Barron's</option>
+                        <option value="magoosh_gregmat_barron333">Magoosh+Barron333+Gregmat</option>
+                        <option value="magoosh_barron_1100_800_333">Magoosh_Barron_1100_800_333</option>
+                        <option value="all">All</option>
+                        <!-- <option value="quizlet">Connect with my Quizlet</option> -->
+                    </select>
+                </div>
             </div>
-          </div>
 
         </div>
 
-    
 
         <!-- <div class="option-row">
           <div class="option-name">Word history:</div>
@@ -66,20 +67,19 @@
           </div>
         </div> -->
         <div class="btn-row">
-          <button id="save-btn" class="btn btn-primary" >Save</button>
+            <button id="save-btn" class="btn btn-primary">Save</button>
 
-          <span id="save-status" style="transition: opacity 0.4s ease-out 0s; opacity: 0;" >Options saved</span>
+            <span id="save-status" style="transition: opacity 0.4s ease-out 0s; opacity: 0;">Options saved</span>
         </div>
 
 
-      </form>
-    </div>
-    <div class="footer">
-      &copy; <span id="year"></span> W9G
-      <a target="_blank" href="https://github.com/jn8029/VocabularyHighlighter">Github</a>
-      <a target="_blank" href="mailto:warren@warrencheng.dev">Email</a>
-    </div>
-
+    </form>
+</div>
+<div class="footer">
+    &copy; <span id="year"></span> W9G
+    <a target="_blank" href="https://github.com/jn8029/VocabularyHighlighter">Github</a>
+    <a target="_blank" href="mailto:warren@warrencheng.dev">Email</a>
+</div>
 
 
 <script src="options.js"></script>
